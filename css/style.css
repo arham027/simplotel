@@ -1,0 +1,199 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  
+    padding: 5px;
+}
+.logo{
+  margin-left: 5px;
+  margin-top: 2px;
+   flex:2;
+}
+.logoimg{
+    height: 13vh;
+}
+
+header nav{
+    flex:5;
+   
+}
+
+nav a{
+  padding: 10px;
+  padding-bottom: 0px!;
+  font-size:3vh;
+  font-weight: 600;
+}
+
+.social{
+    flex: 1;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: #010101;
+}
+.wapp{
+    height: 5vh;
+    border-radius: 50%;
+    border:  1px solid black;
+
+}
+.fbook{
+    height: 5vh;
+    border-radius: 50%;
+   
+    border:  1px solid black;
+}
+
+.hero{
+    background-image: url("../media/heroimg.jpg");
+    background-size: cover;
+    background-position:center bottom;      
+    height: 118vh; 
+    margin-top: -2vh;
+  
+}
+
+.button{
+   transform: translate(8vh,89vh);
+   background: linear-gradient(to right, #111111,#3f3f3f,#646464);;
+   width: 20vw;
+   height: 9vh;
+   color: #ffffff;
+    align-items: center;
+   text-align: center;
+   padding: 0px 20px 0px 20px;
+   font-weight: 500;
+   font-size: 4vh;
+   border-radius: 5px;
+   
+
+
+}
+.txt{
+ 
+   padding-top: 2vh;
+ 
+
+}
+
+
+.about{
+    display: flex; 
+    justify-content: space-evenly; 
+   padding-left: 5vw;
+    background-color: #b2b2b2; 
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+}
+.abt{
+    flex: 1;
+  
+    
+}
+
+
+.main{
+ margin-top: -22px;
+    background-color: #dad6df;
+     padding-left: 9vh;
+     padding-top: 3vh;
+     padding-right:3vh;
+}
+.cardscontainer{
+    padding-top: 3vh;
+    display: flex;
+  justify-content: space-between;
+  padding-bottom: 10vh;
+  
+  
+ 
+   
+}
+
+.cardimg{
+    height: 35vh;
+    padding:20px;
+}
+
+.card1{
+    text-align: left;
+    flex: 1;
+}
+
+.card2{
+
+  flex: 1;
+    text-align: center;
+
+}
+
+.card3{
+    flex:1;
+    text-align: end;
+}
+
+.learnmorebtn{
+    background-color: #000000;
+    color: #ffffff;
+    width:12vw;
+    height: 5vh;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media (max-width:768px){
+    .main{
+        margin-top: -22px;
+           background-color: #dad6df;
+            padding-left: 9vh;
+            padding-top: 3vh;
+            padding-right:3vh;
+       }
+
+       .cardscontainer{
+        padding-top: 3vh;
+        display: flex;
+        flex-direction: column;
+      justify-content: space-between;
+      padding-bottom: 10vh;
+       }
+
+      .learnmorebtn{
+        background-color: #000000;
+        color: #ffffff;
+        width:30vw;
+        height: 5vh;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      
+        .button{
+            transform: translate(8vh,89vh);
+            background: linear-gradient(to right, #111111,#3f3f3f,#646464);;
+            width: 35vw;
+            height: 10vh;
+            color: #ffffff;
+             align-items: center;
+            text-align: center;
+            padding: 0px 20px 0px 20px;
+            font-weight: 500;
+            font-size: 4vh;
+            border-radius: 5px;
+            
+         
+         
+         }
+       
+    
+
+}
